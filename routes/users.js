@@ -271,7 +271,7 @@ router.post('/notifications/:id', [auth, [
       type: req.body.type,
     };
     if (req.body.project) {
-      newNotification.project = santitizers.sanitize(req.body.project);
+      newNotification.project = sanitizers.sanitize(req.body.project);
     }
     if (req.body.discussionWith) {
       newNotification.discussionWith = sanitizers.sanitize(req.body.discussionWith);

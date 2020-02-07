@@ -15,5 +15,9 @@ app.use("/api/project", require('./routes/project'));
 app.use("/api/todos", require('./routes/todos'));
 app.use('/api/discussion', require('./routes/discussion'));
 
+// if (process.env.NODE_ENV === 'production') {
+
+// }
+
 const port = process.env.PORT || 5000;
 app.listen(port, () => console.log(`Server started! Port:${port}`));
