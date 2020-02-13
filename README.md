@@ -17,3 +17,6 @@ To make it work:
  This projects is live on the following url:
  http://minimal-tracker.surge.sh/
  
+ To log-in to the website and check the funcionality you can use the following credentials:
+ username: minimal.tracker@gmail.com
+ password: 123467
